@@ -73,7 +73,5 @@ export default defineConfig({
     }),
   ],
   // 修改 base 配置
-  base: process.env.NODE_ENV === 'production' 
-    ? '/Neverland/' 
-    : '/', 
+  base: './', 
 });
