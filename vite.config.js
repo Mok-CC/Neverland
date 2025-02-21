@@ -75,6 +75,6 @@ export default defineConfig({
 
   // github仓库名称
   base: process.env.NODE_ENV === 'production' 
-    ? `/${process.env.GITHUB_REPOSITORY}/` 
+    ? '/Neverland/' 
     : '/', 
 });
