@@ -73,5 +73,5 @@ export default defineConfig({
     }),
   ],
   // 修改 base 配置
-  base: './', 
+  base: '/Neverland/',
 });
