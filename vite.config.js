@@ -73,5 +73,8 @@ export default defineConfig({
     }),
   ],
 
-  base: '/Neverland/' // github仓库名称
+  // github仓库名称
+  base: process.env.NODE_ENV === 'production' 
+    ? `/${process.env.GITHUB_REPOSITORY}/` 
+    : '/', 
 });
