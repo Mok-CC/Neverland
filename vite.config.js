@@ -72,9 +72,8 @@ export default defineConfig({
       brotliSize: true,
     }),
   ],
-
-  // github仓库名称
+  // 修改 base 配置
   base: process.env.NODE_ENV === 'production' 
-    ? './Neverland/' 
-    : './', 
+    ? '/Neverland/' 
+    : '/', 
 });
