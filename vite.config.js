@@ -72,4 +72,6 @@ export default defineConfig({
       brotliSize: true,
     }),
   ],
+
+  base: '/Neverland/' // github仓库名称
 });
